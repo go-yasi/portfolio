@@ -1,3 +1,9 @@
+:root {
+    --neutral-bg: #e7e5df;
+}
+body {
+    background-color: var(--neutral-bg);
+}
 @font-face {
     font-family: 'Wremena';
     src: url(/assets/fonts/WremenaRegular.woff) format("woff");
