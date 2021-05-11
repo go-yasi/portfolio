@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Wremena';
+    src: url(/assets/fonts/WremenaRegular.woff) format("woff");
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Wremena', Arial, san-serif;
+}
+
+p, a, caption {
+    font-family: 'Inter', sans-serif;
+}
