@@ -1,5 +1,6 @@
 :root {
     --neutral-bg: #e7e5df;
+    --greenish: #dad8cd;
 }
 body {
     background-color: var(--neutral-bg);
@@ -28,6 +29,10 @@ h1 {
     font-size: 8vw;
 }
 
+h2 {
+    font-size: 3vw;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -41,6 +46,17 @@ li {
     border-left:1px solid black;
     flex: 1;
     text-align: center;
+    text-transform: uppercase;
+    transition: .5sec ease;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: var(--greenish);
 }
 
 li:last-child {
