@@ -1,5 +1,6 @@
 :root {
-    --neutral-bg: #e7e5df;
+    --neutral-bg: ##f4f0ec;
+    --lightgreen: #E7E5DF;
     --greenish: #dad8cd;
 }
 body {
@@ -20,6 +21,7 @@ h1 {
     text-align: center;
     font-size: 8vw;
     padding: .2em 0;
+    
 }
 
 h2 {
@@ -40,7 +42,7 @@ p, a, caption {
     border-top:1px solid black;
     border-left:1px solid black;
     border-right:1px solid black;
-    background-color:var(--greenish);
+    background-color:var(--lightgreen); 
 }
 
 /* Nav menu */
@@ -91,6 +93,7 @@ li:first-child {
 /* Styling All Articles (About, Work, Contact) */
 article {
     display: flex;
+    border-bottom: 1px solid black;
 }
 
 article h2 {
@@ -105,7 +108,6 @@ section {
 /* Site Footer */
 footer {
     text-align:center;
-    border-top:1px solid black;
     padding: 1em 0;
-    
+    background-color:var(--greenish);
 }
