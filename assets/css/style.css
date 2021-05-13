@@ -20,6 +20,7 @@ h1 {
     text-align: center;
     font-size: 8vw;
     padding: .2em 0;
+    background-color:var(--greenish);
 }
 
 h2 {
@@ -94,4 +95,12 @@ article {
 
 article h2 {
     border: 1px solid blue;
+}
+
+/* Site Footer */
+footer {
+    text-align:center;
+    border-top:1px solid black;
+    padding: 1em 0;
+    
 }
