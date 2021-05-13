@@ -6,7 +6,7 @@ body {
     background-color: var(--neutral-bg);
 }
 
-/* Custom Font for Headings */
+/* Custom font & styles for headings */
 @font-face {
     font-family: 'Wremena';
     src: url(/assets/fonts/WremenaRegular.woff) format("woff");
@@ -14,14 +14,6 @@ body {
 
 h1, h2, h3, h4 {
     font-family: 'Wremena', Arial, san-serif;
-}
-
-p, a, caption {
-    font-family: 'Inter', sans-serif;
-}
-
-header {
-    border-top:1px solid black;
 }
 
 h1 {
@@ -33,6 +25,23 @@ h2 {
     font-size: 3vw;
 }
 
+h3 {
+    font-size: 1vw;
+}
+
+/* Custom font for paragraph */
+p, a, caption {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Site Header */
+header {
+    border-top:1px solid black;
+    border-left:1px solid black;
+    border-right:1px solid black;
+}
+
+/* Nav menu */
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -47,7 +56,7 @@ li {
     flex: 1;
     text-align: center;
     text-transform: uppercase;
-    transition: .5sec ease;
+    transition: .5s ease;
 }
 
 li a {
@@ -59,6 +68,16 @@ li:hover {
     background-color: var(--greenish);
 }
 
-li:last-child {
-    border-right:1px solid black;
+li:first-child {
+    border-left:none;
+}
+
+article {
+    display: flex;
+}
+
+article h2 {
+    position: sticky;
+    border: 1px solid blue;
+    width: 30%;
 }
