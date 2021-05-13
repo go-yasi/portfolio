@@ -79,8 +79,9 @@ li:first-child {
 /* Banner Section */
 .banner {
     height: 30vh;
+    width: 100vw;
     position: relative;
-    background-image: url(banner-image.jpg);
+    background-image: url(/assets/images/banner-image.jpg);
     border-bottom:1px solid black;
 }
 
