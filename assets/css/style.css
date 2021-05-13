@@ -26,7 +26,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1vw;
+    font-size: 1.68vw;
 }
 
 /* Custom font for paragraph */
@@ -35,7 +35,7 @@ p, a, caption {
 }
 
 /* Site Header */
-header {
+.header {
     border-top:1px solid black;
     border-left:1px solid black;
     border-right:1px solid black;
@@ -53,6 +53,7 @@ li {
     border-top:1px solid black;
     border-bottom:1px solid black;
     border-left:1px solid black;
+    padding: .68vh 0;
     flex: 1;
     text-align: center;
     text-transform: uppercase;
@@ -62,6 +63,7 @@ li {
 li a {
     color: black;
     text-decoration: none;
+
 }
 
 li:hover {
@@ -72,12 +74,13 @@ li:first-child {
     border-left:none;
 }
 
+/* Styling All Articles (About, Work, Contact) */
 article {
     display: flex;
 }
 
 article h2 {
-    position: sticky;
     border: 1px solid blue;
-    width: 30%;
+    /* width: 30%; */
+    /* position: relative; */
 }
