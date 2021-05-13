@@ -82,6 +82,8 @@ li:first-child {
     width: 100vw;
     position: relative;
     background-image: url(/assets/images/banner-image.jpg);
+    background-size: cover;
+    background-position: 50% 30%;
     border-bottom:1px solid black;
 }
 
