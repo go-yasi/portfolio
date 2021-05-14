@@ -178,6 +178,7 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid black;
+    position: relative;
 }
 
 /* Styles for project 3 */
@@ -189,6 +190,7 @@ section {
     background-position:bottom left;
     background-repeat: no-repeat;
     border: 1px solid black;
+    position: relative;
 }
 
 /* CONTACT SECTION */
@@ -217,12 +219,20 @@ footer {
     }
     /* Article titles */
     h2 {
-        font-size: 22px;
+        font-size: 24px;
         text-align: center;
     }
     /* Banner copy */
     h4 {
         font-size: 18px;
+        padding-top: 15px;
+        padding-left: 10px;
+    }
+    /* Banner */
+    .banner {
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        align-items: flex-start;
     }
     /* Changing direction of main content */
     article {
@@ -240,6 +250,11 @@ footer {
         border-left: none;
         padding-bottom: 10px;
     }
+    /* Centering about body copy */
+    #about p {
+        text-align: center;
+        padding-bottom: 10px;
+    }
     /* Changing flex properties, size, and spacing of projects 2 & 3 */
     .double {
         flex-direction: column;
@@ -251,6 +266,15 @@ footer {
         margin-top: 10px;
         margin-left: 0;
     }
+
+    /* Project info edits */
+    .project-info h3 {
+        font-size: 18px;
+    }
+    .project-info p {
+        font-size: 12px;
+    }
+
     /* Changing flex direction of contact section */
     #contact section {
         flex-direction: column;
