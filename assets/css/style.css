@@ -137,6 +137,10 @@ section {
 /* Styles for the feature project */
 #project-one {
     border:1px solid green;
+    background-image:url(/assets/images/project-01.gif);
+    background-size: cover;
+    flex:1 0 450px;
+    margin-bottom: 1vw;
 }
 
 /* Styles for the rows with two projects */
