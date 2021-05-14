@@ -108,14 +108,14 @@ li:first-child {
     padding-left: 2.34vw;
 }
 
-/* Styling All Articles (About, Work, Contact) */
+/* Styling all articles (About, Work, Contact) */
 article {
     display: flex;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
 }
 
-/* Styling Article Headings */
+/* Styling main article headings */
 .title {
     /* border: 1px solid blue; */
     width: 25vw;
@@ -124,7 +124,7 @@ article {
     align-items: center;
 }
 
-/* Styling Sections within Articles */
+/* Styling the "sections" within articles */
 section {
     padding: 2vw;
     width: 75vw;
@@ -144,6 +144,15 @@ section {
     position: relative;
 }
 
+/* Styles for project titles and info */
+.project-info {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+    padding: 1%;
+    position: absolute;
+    bottom: 0;
+}
+
 /* Styles for Project 01 */
 #project-one {
     border:1px solid green;
@@ -154,21 +163,13 @@ section {
     position: relative;
 }
 
-/* Styles for all project info */
-/* .project-info {
-    background-color: var(--greenish);
-    border: 1px solid black;
-    padding: 1%;
-    position: absolute;
-    bottom: 0;
-} */
-
 /* Styles for the rows with two projects */
 .double {
     display: flex;
     flex-direction: row;
     border:1px solid pink;
     height: 30vh;
+    position: relative;
 }
 
 /* Styles for Project 02 */
@@ -188,6 +189,7 @@ section {
     margin-left: .5vw;
     background-image: url(/assets/images/project-03.gif);
     background-size: cover;
+    background-position:bottom left;
     background-repeat: no-repeat;
 }
 
