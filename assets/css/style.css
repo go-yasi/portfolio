@@ -21,15 +21,14 @@ main {
     src: url(/assets/fonts/WremenaRegular.woff) format("woff");
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Wremena', Arial, san-serif;
+h1, h2, h3 {
+    font-family: 'Wremena', Times, serif;
 }
 
 h1 {
     text-align: center;
     font-size: 8vw;
     padding: .2em 0;
-    
 }
 
 h2 {
@@ -41,7 +40,7 @@ h3 {
 }
 
 /* Custom font for body */
-p, a, caption {
+h4, p, a, caption {
     font-family: 'Inter', sans-serif;
 }
 
@@ -97,6 +96,16 @@ li:first-child {
     background-position: 50% 30%;
     border-bottom:1px solid black;
     padding:0;
+    display: flex;
+    /* justify-content: center; */
+    align-items:center;
+}
+
+.banner h4 {
+    /* font-family: Times;
+    font-style: italic; */
+    font-size: 3vw;
+    padding-left: 2.34vw;
 }
 
 /* Styling All Articles (About, Work, Contact) */
@@ -132,6 +141,7 @@ section {
 #projects {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 /* Styles for the feature project */
@@ -141,6 +151,16 @@ section {
     background-size: cover;
     flex:1 0 450px;
     margin-bottom: 1vw;
+    position: relative;
+}
+
+/* Styles for project info */
+.project-info {
+    background-color: var(--greenish);
+    border: 1px solid black;
+    padding: 1%;
+    position: absolute;
+    bottom: 0;
 }
 
 /* Styles for the rows with two projects */
