@@ -114,7 +114,7 @@ article {
     align-items: center;
 }
 
-/* Styling Sections within Atricles */
+/* Styling Sections within Articles */
 section {
     padding: 2vw;
     width: 75vw;
@@ -124,6 +124,11 @@ section {
 #contact section {
     display:flex;
     justify-content: space-around;
+}
+
+/* Individual Projects */
+#projects {
+    display: flex;
 }
 
 /* Site Footer */
