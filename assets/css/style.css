@@ -1,3 +1,4 @@
+/* Global Styles */
 :root {
     --neutral-bg: ##f4f0ec;
     --lightgreen: #E7E5DF;
@@ -115,18 +116,17 @@ article {
     border-left: 1px solid black;
 }
 
-/* Styling main article headings */
+/* Styling article titles */
 .title {
-    /* border: 1px solid blue; */
     width: 25vw;
     display:flex;
     justify-content:center;
     align-items: center;
 }
 
-/* Styling the "sections" within articles */
+/* Styling the "sections" within articles (this is the content on right) */
 section {
-    padding: 2vw;
+    padding: 3vw;
     width: 75vw;
     border-left: 1px solid black;
     border-right: 1px solid black;
@@ -147,7 +147,8 @@ section {
 /* Styles for project titles and info */
 .project-info {
     background-color: rgba(255, 255, 255, 0.5);
-    border: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
     padding: 1%;
     position: absolute;
     bottom: 0;
@@ -155,11 +156,11 @@ section {
 
 /* Styles for Project 01 */
 #project-one {
-    border:1px solid green;
+    border: 1px solid black;
     background-image:url(/assets/images/project-01.gif);
     background-size: cover;
     flex:1 0 450px;
-    margin-bottom: 1vw;
+    margin-bottom: 2vw;
     position: relative;
 }
 
@@ -167,30 +168,29 @@ section {
 .double {
     display: flex;
     flex-direction: row;
-    border:1px solid pink;
     height: 30vh;
     position: relative;
 }
 
 /* Styles for Project 02 */
 #project-two{
-    border:1px solid yellow;
     flex: 1;
-    margin-right: .5vw;
+    margin-right: 1vw;
     background-image: url(/assets/images/project-02.gif);
     background-size: cover;
     background-repeat: no-repeat;
+    border: 1px solid black;
 }
 
 /* Styles for Project 03 */
 #project-three {
-    border:1px solid blue;
     flex: 1;
-    margin-left: .5vw;
+    margin-left: 1vw;
     background-image: url(/assets/images/project-03.gif);
     background-size: cover;
     background-position:bottom left;
     background-repeat: no-repeat;
+    border: 1px solid black;
 }
 
 
