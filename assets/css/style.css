@@ -127,6 +127,12 @@ article {
     align-items: center;
 }
 
+h3 a {
+    font-family: "Wremena";
+    text-decoration: none;
+    color: black;
+}
+
 /* Styling the "sections" within articles (this is the content on right) */
 section {
     padding: 3vw;

@@ -11,11 +11,13 @@ One of the first challenges I faced when trying to style the page was adding a b
 
 Another challenge I faced was getting the titles of each section ("About Yasi", "Work", and "Contact") to be both vertically and horizontally aligned in their respective containers. For this, I consulted a tutor who was able to help guide me on a more effective way of using flexbox to achieve this goal. 
 
-When styling the "Work" section, I chose to add GIFs instead of images to showcase some of the more interesting features of each project. Overall, I wanted to keep the design of the page really simple by using neutral colors and simple thin gridlines around each section, so adding the GIFs brought a little more dynamism. 
+When styling the "Work" section, I chose to add GIFs instead of images to showcase some of the more interesting features of each project. Overall, I wanted to keep the design of the page really simple by using neutral colors and simple thin gridlines around each section, then adding GIFs to the Work section to add dynamism. 
+
+After finalizing the structure and site styles, my last step was to optimize the layout for mobile. I used a media query to define the new styles that would be displayed on screens 767px or smaller. I didn't change too much  — I mostly adjusted the flex-direction of the elements to have eveything appear in columns instead of rows. I'm happy with both the desktop and mobile versions of the page!
 
 ## Usage
 Below is a screenshot of the final webpage: 
-    ![Screenshot of completed Horiseon project webpage](assets/images/screenshot.png)
+    ![Screenshot of completed personal portfolio webpage](assets/images/screenshot.png)
 
 
 ## Conclusion
