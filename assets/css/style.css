@@ -103,11 +103,12 @@ li:first-child {
 article {
     display: flex;
     border-bottom: 1px solid black;
+    border-left: 1px solid black;
 }
 
 /* Styling Article Headings */
 .title {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 25vw;
     display:flex;
     justify-content:center;
@@ -119,6 +120,7 @@ section {
     padding: 2vw;
     width: 75vw;
     border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 
 #contact section {
@@ -126,9 +128,21 @@ section {
     justify-content: space-around;
 }
 
-/* Individual Projects */
+/* Styles for the container that holds all projects */
 #projects {
     display: flex;
+    flex-direction: column;
+}
+
+/* Styles for the feature project */
+#project-one {
+    border:1px solid green;
+}
+
+/* Styles for the rows with two projects */
+.double {
+    display: flex;
+    border:1px solid pink;
 }
 
 /* Site Footer */
@@ -137,4 +151,7 @@ footer {
     padding: 1em 0;
     background-color:var(--greenish);
     font-size: 1vw;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
 }
