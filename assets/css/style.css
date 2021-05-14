@@ -168,6 +168,7 @@ section {
     display: flex;
     flex-direction: row;
     border:1px solid pink;
+    height: 30vh;
 }
 
 /* Styles for Project 02 */
@@ -175,6 +176,9 @@ section {
     border:1px solid yellow;
     flex: 1;
     margin-right: .5vw;
+    background-image: url(/assets/images/project-02.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* Styles for Project 03 */
@@ -182,6 +186,9 @@ section {
     border:1px solid blue;
     flex: 1;
     margin-left: .5vw;
+    background-image: url(/assets/images/project-03.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
