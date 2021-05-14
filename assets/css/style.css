@@ -102,11 +102,10 @@ li a {
     border-bottom:1px solid black;
     padding:0;
     display: flex;
-    /* justify-content: center; */
     align-items:center;
 }
 
-.banner h4 {
+h4 {
     font-size: 3vw;
     padding-left: 2.34vw;
 }
@@ -208,4 +207,29 @@ footer {
     border-left: 1px solid black;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
+}
+
+/* MOBILE STYLES */
+@media screen and (max-width:767px) {
+    /* Main heading font */
+    h1 {
+        font-size: 40px;
+    }
+    /* Article titles */
+    h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+    /* Banner copy */
+    h4 {
+        font-size: 18px;
+    }
+    /* Changing direction of main content */
+    article {
+        flex-direction: column;
+    }
+    /* Footer copy */
+    footer {
+        font-size: 16px;
+    }
 }
