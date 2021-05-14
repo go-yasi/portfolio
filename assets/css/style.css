@@ -3,8 +3,16 @@
     --lightgreen: #E7E5DF;
     --greenish: #dad8cd;
 }
+*{
+    box-sizing: border-box;
+}
+
 body {
     background-color: var(--neutral-bg);
+}
+
+main {
+    min-height:calc(100vh - 220px);
 }
 
 /* Custom font & styles for headings */
@@ -82,30 +90,40 @@ li:first-child {
 /* Banner Section */
 .banner {
     height: 30vh;
-    width: 100vw;
+    width: 100%;
     position: relative;
     background-image: url(/assets/images/banner-image.jpg);
     background-size: cover;
     background-position: 50% 30%;
     border-bottom:1px solid black;
+    padding:0;
 }
 
 /* Styling All Articles (About, Work, Contact) */
 article {
     display: flex;
-    align-items: center;
     border-bottom: 1px solid black;
-}
-
-/* Styling Sections within Atricles */
-section {
-    padding: 2vw;
 }
 
 /* Styling Article Headings */
 .title {
     border: 1px solid blue;
     width: 25vw;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+/* Styling Sections within Atricles */
+section {
+    padding: 2vw;
+    width: 75vw;
+    border-left: 1px solid black;
+}
+
+#contact section {
+    display:flex;
+    justify-content: space-around;
 }
 
 /* Site Footer */
