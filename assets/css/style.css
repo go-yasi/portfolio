@@ -144,7 +144,7 @@ section {
     position: relative;
 }
 
-/* Styles for the feature project */
+/* Styles for Project 01 */
 #project-one {
     border:1px solid green;
     background-image:url(/assets/images/project-01.gif);
@@ -154,20 +154,36 @@ section {
     position: relative;
 }
 
-/* Styles for project info */
-.project-info {
+/* Styles for all project info */
+/* .project-info {
     background-color: var(--greenish);
     border: 1px solid black;
     padding: 1%;
     position: absolute;
     bottom: 0;
-}
+} */
 
 /* Styles for the rows with two projects */
 .double {
     display: flex;
+    flex-direction: row;
     border:1px solid pink;
 }
+
+/* Styles for Project 02 */
+#project-two{
+    border:1px solid yellow;
+    flex: 1;
+    margin-right: .5vw;
+}
+
+/* Styles for Project 03 */
+#project-three {
+    border:1px solid blue;
+    flex: 1;
+    margin-left: .5vw;
+}
+
 
 /* Site Footer */
 footer {
