@@ -227,6 +227,37 @@ footer {
     /* Changing direction of main content */
     article {
         flex-direction: column;
+        border-right: 1px solid black;
+    }
+    /* Editing main section spacing and borders */
+    .title {
+        width: auto;
+        padding-top: 10px;
+    }
+    section {
+        width: auto;
+        border-right: none;
+        border-left: none;
+        padding-bottom: 10px;
+    }
+    /* Changing flex properties, size, and spacing of projects 2 & 3 */
+    .double {
+        flex-direction: column;
+    }
+    #project-two {
+        margin-right: 0;
+    }
+    #project-three {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    /* Changing flex direction of contact section */
+    #contact section {
+        flex-direction: column;
+        text-align: center;
+    }
+    #contact section a {
+        margin-top: 5px;
     }
     /* Footer copy */
     footer {
