@@ -93,11 +93,8 @@ li:first-child {
 /* Styling All Articles (About, Work, Contact) */
 article {
     display: flex;
+    align-items: center;
     border-bottom: 1px solid black;
-}
-
-article h2 {
-    border: 1px solid blue;
 }
 
 /* Styling Sections within Atricles */
@@ -105,9 +102,16 @@ section {
     padding: 2vw;
 }
 
+/* Styling Article Headings */
+.title {
+    border: 1px solid blue;
+    width: 25vw;
+}
+
 /* Site Footer */
 footer {
     text-align:center;
     padding: 1em 0;
     background-color:var(--greenish);
+    font-size: 1vw;
 }
