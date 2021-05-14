@@ -200,6 +200,16 @@ section {
     justify-content: space-around;
 }
 
+#contact a {
+    color: black;
+    text-decoration: none;
+    transition: .5s ease;
+}
+
+#contact a:hover {
+    color: green;
+}
+
 /* FOOTER */
 footer {
     text-align:center;
