@@ -1,4 +1,4 @@
-/* Global Styles */
+/* GLOBAL STYLES */
 :root {
     --neutral-bg: ##f4f0ec;
     --lightgreen: #E7E5DF;
@@ -16,12 +16,13 @@ main {
     min-height:calc(100vh - 220px);
 }
 
-/* Custom font & styles for headings */
+/* CUSTOM FONTS */
 @font-face {
     font-family: 'Wremena';
     src: url(/assets/fonts/WremenaRegular.woff) format("woff");
 }
 
+/* HEADING FONT STYLES */
 h1, h2, h3 {
     font-family: 'Wremena', Times, serif;
 }
@@ -40,12 +41,12 @@ h3 {
     font-size: 1.68vw;
 }
 
-/* Custom font for body */
+/* BODY FONT STYLES */
 h4, p, a, caption {
     font-family: 'Inter', sans-serif;
 }
 
-/* Site Header */
+/* HEADER */
 .header {
     border-top:1px solid black;
     border-left:1px solid black;
@@ -53,7 +54,8 @@ h4, p, a, caption {
     background-color:var(--lightgreen); 
 }
 
-/* Nav menu */
+/* NAV MENU */
+/* Unordered list layout */
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -61,6 +63,7 @@ nav ul {
     justify-content: center;
 }
 
+/* List item styles */
 li {
     border-top:1px solid black;
     border-bottom:1px solid black;
@@ -72,12 +75,6 @@ li {
     transition: .5s ease;
 }
 
-li a {
-    color: black;
-    text-decoration: none;
-
-}
-
 li:hover {
     background-color: var(--greenish);
 }
@@ -86,8 +83,15 @@ li:first-child {
     border-left:none;
 }
 
+/* List item link styles */
+li a {
+    color: black;
+    text-decoration: none;
 
-/* Banner Section */
+}
+
+/* MAIN SECTION */
+/* BANNER */
 .banner {
     height: 30vh;
     width: 100%;
@@ -103,19 +107,19 @@ li:first-child {
 }
 
 .banner h4 {
-    /* font-family: Times;
-    font-style: italic; */
     font-size: 3vw;
     padding-left: 2.34vw;
 }
 
-/* Styling all articles (About, Work, Contact) */
+
+/* ARTICLES (About, Work, Contact) */
 article {
     display: flex;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
 }
 
+/* WORK SECTION */
 /* Styling article titles */
 .title {
     width: 25vw;
@@ -132,12 +136,7 @@ section {
     border-right: 1px solid black;
 }
 
-#contact section {
-    display:flex;
-    justify-content: space-around;
-}
-
-/* Styles for the container that holds all projects */
+/* Projects */
 #projects {
     display: flex;
     flex-direction: column;
@@ -164,7 +163,7 @@ section {
     position: relative;
 }
 
-/* Styles for the rows with two projects */
+/* Styles for the rows containing projects 1 & 2 */
 .double {
     display: flex;
     flex-direction: row;
@@ -172,7 +171,7 @@ section {
     position: relative;
 }
 
-/* Styles for Project 02 */
+/* Styles for project 2 */
 #project-two{
     flex: 1;
     margin-right: 1vw;
@@ -182,7 +181,7 @@ section {
     border: 1px solid black;
 }
 
-/* Styles for Project 03 */
+/* Styles for project 3 */
 #project-three {
     flex: 1;
     margin-left: 1vw;
@@ -193,8 +192,14 @@ section {
     border: 1px solid black;
 }
 
+/* CONTACT SECTION */
+/* Arranging contact items */
+#contact section {
+    display:flex;
+    justify-content: space-around;
+}
 
-/* Site Footer */
+/* FOOTER */
 footer {
     text-align:center;
     padding: 1em 0;
