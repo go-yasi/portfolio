@@ -178,20 +178,25 @@ section {
     background-image:url("/assets/images/project-01.gif");
     background-size: cover;
     flex:1 0 450px;
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
     position: relative;
 }
 
-/* Styles for the rows containing projects 1 & 2 */
+/* Styles for the rows containing two projects */
 .double {
     display: flex;
     flex-direction: row;
     height: 30vh;
     position: relative;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+.double:last-child {
+    margin-bottom: 0;
 }
 
-/* Styles for project 2 */
-#project-maeri{
+/* Styles for projects on left*/
+#project-maeri, #project-perfect-night {
     flex: 1;
     margin-right: 1vw;
     background-image: url("/assets/images/project-02.gif");
@@ -201,8 +206,8 @@ section {
     position: relative;
 }
 
-/* Styles for project 3 */
-#project-space {
+/* Styles for projects on right*/
+#project-space, #project-code-quiz {
     flex: 1;
     margin-left: 1vw;
     background-image: url("/assets/images/project-03.gif");
