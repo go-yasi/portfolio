@@ -117,6 +117,11 @@ article {
     display: flex;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
+    transition: .5s ease;
+}
+
+article:hover {
+    background-color: var(--lightgreen);
 }
 
 /* WORK SECTION */
@@ -128,8 +133,12 @@ article {
     align-items: center;
 }
 
-h3 a {
+h3 {
     font-family: "Wremena";
+    text-decoration: none;
+    color: black;
+}
+p {
     text-decoration: none;
     color: black;
 }
@@ -157,6 +166,10 @@ section {
     padding: 1%;
     position: absolute;
     bottom: 0;
+    transition: .5s ease;
+}
+#project-one .project-info:hover {
+    background-color:var(--greenish);
 }
 
 /* Styles for Project 01 */
@@ -178,7 +191,7 @@ section {
 }
 
 /* Styles for project 2 */
-#project-two{
+#project-maeri{
     flex: 1;
     margin-right: 1vw;
     background-image: url("/assets/images/project-02.gif");
@@ -189,7 +202,7 @@ section {
 }
 
 /* Styles for project 3 */
-#project-three {
+#project-space {
     flex: 1;
     margin-left: 1vw;
     background-image: url("/assets/images/project-03.gif");
