@@ -6,8 +6,8 @@
 }
 *{
     box-sizing: border-box;
-    text-decoration: none;
-    color: black;
+    text-decoration: none !important;
+    color: black !important;
 }
 
 body {
@@ -101,7 +101,7 @@ li a {
     height: 30vh;
     width: 100%;
     position: relative;
-    background-image: url("/assets/images/banner-image.jpg");
+    background-image: url("./assets/images/banner-image.jpg");
     background-size: cover;
     background-position: 50% 30%;
     border-bottom:1px solid black;
@@ -179,7 +179,7 @@ section {
 /* Styles for Project 01 */
 #project-one {
     border: 1px solid black;
-    background-image:url("/assets/images/idalia-inc.gif");
+    background-image:url("./assets/images/idalia-inc.gif");
     background-size: cover;
     flex:1 0 450px;
     margin-bottom: 1vw;
@@ -210,16 +210,16 @@ section {
 
 /* Project Screenshots */
 #project-perfect-night {
-    background-image: url("/assets/images/perfect-night.png");
+    background-image: url("./assets/images/perfect-night.png");
 }
 #project-code-quiz {
-    background-image: url("/assets/images/code-quiz.png");
+    background-image: url("./assets/images/code-quiz.png");
 }
 #project-maeri {
-    background-image: url("/assets/images/maeri.gif");
+    background-image: url("./assets/images/maeri.gif");
 }
 #project-space {
-    background-image: url("/assets/images/space.gif");
+    background-image: url("./assets/images/space.gif");
     background-position:bottom left;
 }
 
