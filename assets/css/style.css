@@ -197,28 +197,40 @@ section {
     margin-bottom: 0;
 }
 
-/* Styles for projects on left*/
-#project-maeri, #project-perfect-night {
+/* Styles for projects in a double row */
+.double-display {
     flex: 1;
-    margin-right: 1vw;
-    background-image: url("/assets/images/maeri.gif");
-    background-size: cover;
-    background-repeat: no-repeat;
     border: 1px solid black;
     position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Project Screenshots */
+#project-perfect-night {
+    background-image: url("/assets/images/perfect-night.png");
+}
+#project-code-quiz {
+    background-image: url("/assets/images/code-quiz.png");
+}
+#project-maeri {
+    background-image: url("/assets/images/maeri.gif");
+}
+#project-space {
+    background-image: url("/assets/images/space.gif");
+    background-position:bottom left;
+}
+
+/* Styles for projects on left*/
+.pos-l {
+    margin-right: 1vw;
 }
 
 /* Styles for projects on right*/
-#project-space, #project-code-quiz {
-    flex: 1;
+.pos-r {
     margin-left: 1vw;
-    background-image: url("/assets/images/space.gif");
-    background-size: cover;
-    background-position:bottom left;
-    background-repeat: no-repeat;
-    border: 1px solid black;
-    position: relative;
 }
+
 
 /* CONTACT SECTION */
 /* Arranging contact items */
