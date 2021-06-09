@@ -291,11 +291,24 @@ footer {
         padding-top: 15px;
         padding-left: 10px;
     }
-    /* Banner */
+    /* Resetting Navbar */
+    .header {
+        background-color: var(--greenish);
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    li {
+        border-left: 0;
+        border-top: 0;
+        background-color: var(--lightgreen);
+    }
+    li:first-child {
+        border-top: 1px solid black;;
+    }
+    /* Hide banner on mobile*/
     .banner {
-        border-left: 1px solid black;
-        border-right: 1px solid black;
-        align-items: flex-start;
+        display: none;
     }
     /* Changing direction of main content */
     article {
@@ -313,20 +326,27 @@ footer {
         border-left: none;
         padding-bottom: 10px;
     }
+    /* Editing about flex direction */
+    #about-info {
+        flex-direction: column;
+        padding: 10px 25px;
+    }
     /* Centering about body copy */
     #about p {
         text-align: center;
         padding-bottom: 10px;
     }
-    /* Changing flex properties, size, and spacing of projects 2 & 3 */
+    /* Changing flex properties, size, and spacing of projects*/
     .double {
         flex-direction: column;
     }
-    #project-two {
+    .double-display {
+        margin-top: 10px;
+    }
+    .pos-l {
         margin-right: 0;
     }
-    #project-three {
-        margin-top: 10px;
+    .pos-r {
         margin-left: 0;
     }
 
