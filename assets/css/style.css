@@ -6,6 +6,8 @@
 }
 *{
     box-sizing: border-box;
+    text-decoration: none;
+    color: black;
 }
 
 body {
@@ -246,7 +248,8 @@ section {
 }
 
 #contact a:hover {
-    color: green;
+    font-weight: bold;
+    font-size: 22px;
 }
 
 /* FOOTER */
