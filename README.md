@@ -1,4 +1,4 @@
-# Bootcamp Assignment Two: Personal Portfolio
+# Personal Portfolio
 ## Description
 The goal of this project was to create a personal portfolio page that showcases my work and skillset. For this assignment, there was no starter code, which meant I had the opportunity to create the entire project from scratch! This process helped me practice and refine my HTML and CSS skills by requiring me to rely on my own knowledge and to research solutions when hitting roadblocks. It also helped reinforce the lessons from the last assignment, where I developed a stronger understanding of the importance of semantics and organization when coding.
 
@@ -16,7 +16,7 @@ When styling the "Work" section, I chose to add GIFs instead of images to showca
 After finalizing the structure and site styles, my last step was to optimize the layout for mobile. I used a media query to define the new styles that would be displayed on screens 767px or smaller. I didn't change too much  — I mostly adjusted the flex-direction of the elements to have eveything appear in columns instead of rows. I'm happy with both the desktop and mobile versions of the page!
 
 ## Usage
-Below is a screenshot of the final webpage: 
+Below is a screenshot of the webpage: 
     ![Screenshot of completed personal portfolio webpage](assets/images/screenshot.png)
 
 
