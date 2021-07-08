@@ -220,6 +220,12 @@ section {
 }
 
 /* Project Screenshots */
+#out-of-office {
+    background-image: url("../images/out-of-office-home-page.png");
+}
+#ecomm-backend {
+    background-image: url("../images/ecomm-backend.png");
+}
 #project-perfect-night {
     background-image: url("../images/perfect-night.png");
 }
@@ -233,6 +239,7 @@ section {
     background-image: url("../images/space.gif");
     background-position:bottom left;
 }
+
 
 /* Styles for projects on left*/
 .pos-l {
